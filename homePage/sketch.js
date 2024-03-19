@@ -1,3 +1,4 @@
+
 function setup() {
   createCanvas(700, 400);
   
@@ -11,10 +12,12 @@ function draw() {
   circle(30, 55, 30);
   
     fill('black');
-   textSize(16);
+   textSize(18);
+   textFont('Impact');
    text('Welcome again XYZ ………. Get started by playing any of the games below!', 100, 50);
   
   fill('deeppink');
+  textFont('Brush Script MT');
   textSize(26);
   text('Featured Games', 80, 125);
   text('Recent Games', 80, 250);
