@@ -8,17 +8,17 @@ function draw() {
   background(181,215,168);
   
   fill('white');
-  circle(30, 30, 20);
-  circle(30, 55, 30);
+  circle(50, 50, 30);
+  circle(50, 90, 50);
   
     fill('black');
-   textSize(18);
+   textSize(30);
    textFont('Impact');
-   text('Welcome again XYZ ………. Get started by playing any of the games below!', 100, 50);
+   text('Welcome again Back!        Get started by playing any of the games below!', 350, 85);
   
   fill('deeppink');
   textFont('Brush Script MT');
-  textSize(26);
-  text('Featured Games', 80, 125);
-  text('Recent Games', 80, 250);
+  textSize(52);
+  text('Featured Games', 226, 250);
+  text('Recent Games', 226, 500);
 }
