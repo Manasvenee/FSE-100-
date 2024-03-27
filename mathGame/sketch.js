@@ -1,30 +1,30 @@
 function setup() {
-  createCanvas(700, 400);
+  createCanvas(1920,1080);
 }
 
 function draw() {
   background(181,215,168);
-  circle(310, 100, 100);
-  rect(40, 250, 70, 100, 20);
-  rect(270, 250, 70, 70, 20);
-  rect(500,250, 70, 70, 20);
+  circle(910, 300, 300);
+  rect(200, 700, 200, 200, 20);
+  rect(800, 700, 200,200, 20);
+  rect(1400,700, 200, 200, 20);
 
   
-  textSize(24);
+  textSize(100);
   textAlign(CENTER, CENTER); 
-  text("5", 310, 100);
+  text("5", 930, 300);
 
 
-  textSize(24);
+  textSize(100);
   textAlign(CENTER, CENTER); 
-  text("1", 75, 285);
+  text("1", 1450, 800);
 
-  textSize(24);
+  textSize(100);
   textAlign(CENTER, CENTER); 
-  text("2", 215, 285);
+  text("2", 850, 800);
 
-  textSize(24);
+  textSize(100);
   textAlign(CENTER, CENTER); 
-  text("3", 345, 285);
+  text("3", 250, 800);
 
 }
